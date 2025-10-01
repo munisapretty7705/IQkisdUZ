@@ -1,0 +1,23 @@
+{
+  "uz": {
+    "welcome": "Salom, botga xush kelibsiz! 😊\n\nBot sizga qanday yordam bera oladi?\nBot sizning farzandingizning aqliy faoliyatini tekshirish uchun mo‘ljallangan bo‘lib, unga farzandingizning ism, familiya va tug‘ilgan kunini kiritsangiz, bot sizga farzandingizning yoshiga mos bo‘lgan IQ testlarini taqdim etadi.\n\n❗ Eslatib o‘tamiz: Botimiz faqat 3 yoshdan 7 yoshgacha bo‘lgan bolalar uchun mo‘ljallangan.\nIltimos, quyidagicha ma’lumot kiriting:\n1️⃣ Ism va familiya (masalan: Aliyev Valijon)\n2️⃣ Tug‘ilgan kun (masalan: 29.11.2020)",
+    "menu":{
+      "start_test": "Ro'yhatdan o'tish",
+      "history": "Oddiy test"
+    }
+  },
+  "en": {
+    "welcome": "Hello, welcome to the bot! 😊\n\nHow can the bot help you?\nThis bot is designed to check your child's mental activity. If you enter your child's first name, last name, and date of birth, the bot will provide IQ tests suitable for your child's age.\n\n❗ Reminder: Our bot is intended only for children between 3 and 7 years old.\nPlease enter the information as follows:\n1️⃣ First and last name (e.g.: Aliyev Valijon)\n2️⃣ Date of birth (e.g.: 29.11.2020)",
+    "menu":{
+      "start_test": "Registration",
+      "history": "Basic test"
+    }
+  },
+  "ru": {
+    "welcome": "Здравствуйте, добро пожаловать в бота! 😊\n\nЧем может помочь вам бот?\nЭтот бот предназначен для проверки умственной активности вашего ребёнка. Если вы введёте имя, фамилию и дату рождения вашего ребёнка, бот предоставит IQ-тесты, соответствующие возрасту вашего ребёнка.\n\n❗ Напоминаем: наш бот предназначен только для детей от 3 до 7 лет.\nПожалуйста, введите данные следующим образом:\n1️⃣ Имя и фамилия (например: Алиев Валижон)\n2️⃣ Дата рождения (например: 29.11.2020)",
+    "menu":{
+          "start_test": "Регистрация",
+      "history": "Простой тест"
+    }
+  }
+}
