@@ -36,3 +36,72 @@ def registration_keyboard(data):
         resize_keyboard=True
     )
 
+#   Munisa Akbarovna 
+#  ro'yxatdan utish uchun kerak bo'ladigan tugmalar
+
+# 🔹 Viloyat tanlash uchun klaviatura
+def get_region_keyboard():
+    return ReplyKeyboardMarkup(
+        keyboard=[
+            [KeyboardButton(text="Toshkent"), KeyboardButton(text="Samarqand")],
+            [KeyboardButton(text="Farg‘ona"), KeyboardButton(text="Andijon")],
+            [KeyboardButton(text="Buxoro"), KeyboardButton(text="Xorazm")],
+            [KeyboardButton(text="Jizzax"), KeyboardButton(text="Qashqadaryo")],
+            [KeyboardButton(text="Sirdaryo"), KeyboardButton(text="Surxondaryo")],
+            [KeyboardButton(text="Navoiy"), KeyboardButton(text="Namangan")],
+            [KeyboardButton(text="Orqaga")]
+        ],
+        resize_keyboard=True
+    )
+
+
+# 🔹 Tumanni tanlash uchun klaviatura (keyinroq viloyatga qarab dinamik qilamiz)
+def get_district_keyboard():
+    return ReplyKeyboardMarkup(
+        keyboard=[
+            [KeyboardButton(text="Tuman 1"), KeyboardButton(text="Tuman 2")],
+            [KeyboardButton(text="Tuman 3"), KeyboardButton(text="Tuman 4")],
+            [KeyboardButton(text="Orqaga")]
+        ],
+        resize_keyboard=True
+    )
+
+
+# 🔹 Yakuniy tasdiqlash tugmalari
+def confirm_keyboard():
+    return ReplyKeyboardMarkup(
+        keyboard=[
+            [KeyboardButton(text="Tasdiqlash ✅"), KeyboardButton(text="Bekor qilish ❌")]
+        ],
+        resize_keyboard=True
+    )
+
+from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
+
+def get_location_type_keyboard():
+    return ReplyKeyboardMarkup(
+        keyboard=[
+            [KeyboardButton(text="Uy"), KeyboardButton(text="Bog'cha")]
+        ],
+        resize_keyboard=True
+    )
+
+from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
+
+def get_location_type_keyboard():
+    return ReplyKeyboardMarkup(
+        keyboard=[
+            [KeyboardButton(text="🏡 Uy"), KeyboardButton(text="🏫 Bog‘cha")]
+        ],
+        resize_keyboard=True
+    )
+
+def get_bogcha_type_keyboard():
+    return ReplyKeyboardMarkup(
+        keyboard=[
+            [KeyboardButton(text="🏛 Davlat"), KeyboardButton(text="🏠 Xususiy")]
+        ],
+        resize_keyboard=True
+    )
+
+

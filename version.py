@@ -1,4 +1,4 @@
-__version__ = '1'
+__version__ = '2'
 
 # Major - eng katta o'zgarishlar
 # Minor - yangi funksiya qo'shilganda (yoki yangilik qo'shilganda)

@@ -51,7 +51,7 @@ async def lang_command_answer(message: Message, state: FSMContext):
         reply_markup=get_languages_keyboard()
     )
     await state.set_state(Form.language)
-# Munisa Akbarovna  ro'yxatdan utish  bosqichma bosqich
+
 
 # ---------------- RO‘YXATNI BOSHLASH ----------------
 async def start_registration(message: Message, state: FSMContext):
@@ -152,4 +152,4 @@ async def finish_registration(message: Message, state: FSMContext):
         await state.clear()
     else:
         await message.answer("❌ Bekor qilindi. Qayta /start bosing.", reply_markup=ReplyKeyboardRemove())
-        await state.clear()
+        await state.clear() 

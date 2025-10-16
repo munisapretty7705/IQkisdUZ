@@ -1,23 +1,58 @@
 {
   "uz": {
-    "welcome": "Salom, botga xush kelibsiz! 😊\n\nBot sizga qanday yordam bera oladi?\nBot sizning farzandingizning aqliy faoliyatini tekshirish uchun mo‘ljallangan bo‘lib, unga farzandingizning ism, familiya va tug‘ilgan kunini kiritsangiz, bot sizga farzandingizning yoshiga mos bo‘lgan IQ testlarini taqdim etadi.\n\n❗ Eslatib o‘tamiz: Botimiz faqat 3 yoshdan 7 yoshgacha bo‘lgan bolalar uchun mo‘ljallangan.\nIltimos, quyidagicha ma’lumot kiriting:\n1️⃣ Ism va familiya (masalan: Aliyev Valijon)\n2️⃣ Tug‘ilgan kun (masalan: 29.11.2020)",
-    "menu":{
-      "start_test": "Ro'yhatdan o'tish",
-      "history": "Oddiy test"
+    "welcome": "Assalomu alaykum! Tilni tanlang / Выберите язык / Choose a language:",
+    "ask_name": "Iltimos, ismingizni kiriting:",
+    "ask_region": "Endi viloyatingizni tanlang:",
+    "ask_district": "Endi tumaningizni tanlang:",
+    "ask_location_type": "Farzandingiz qayerda ta’lim oladi?",
+    "ask_bogcha_type": "Bog‘changiz turi qanday?",
+    "ask_bogcha_number": "Iltimos, bog‘cha raqamini kiriting (masalan: 154):",
+    "confirm_question": "Hammasi to‘g‘rimi?",
+    "menu": {
+      "start_test": "🧠 Testni boshlash",
+      "history": "📚 Tarix"
+    },
+    "responses": {
+      "registered": "✅ Rahmat, siz muvaffaqiyatli ro‘yxatdan o‘tdingiz 🎉",
+      "cancelled": "❌ Bekor qilindi. Qayta /start bosing."
     }
   },
+
   "en": {
-    "welcome": "Hello, welcome to the bot! 😊\n\nHow can the bot help you?\nThis bot is designed to check your child's mental activity. If you enter your child's first name, last name, and date of birth, the bot will provide IQ tests suitable for your child's age.\n\n❗ Reminder: Our bot is intended only for children between 3 and 7 years old.\nPlease enter the information as follows:\n1️⃣ First and last name (e.g.: Aliyev Valijon)\n2️⃣ Date of birth (e.g.: 29.11.2020)",
-    "menu":{
-      "start_test": "Registration",
-      "history": "Basic test"
+    "welcome": "Hello! Choose your language:",
+    "ask_name": "Please enter your full name:",
+    "ask_region": "Now select your region:",
+    "ask_district": "Now select your district:",
+    "ask_location_type": "Where does your child study?",
+    "ask_bogcha_type": "What type is your kindergarten?",
+    "ask_bogcha_number": "Please enter the kindergarten number (e.g. 154):",
+    "confirm_question": "Is everything correct?",
+    "menu": {
+      "start_test": "🧠 Start Test",
+      "history": "📚 History"
+    },
+    "responses": {
+      "registered": "✅ Thank you — you have been registered successfully 🎉",
+      "cancelled": "❌ Cancelled. Press /start to try again."
     }
   },
+
   "ru": {
-    "welcome": "Здравствуйте, добро пожаловать в бота! 😊\n\nЧем может помочь вам бот?\nЭтот бот предназначен для проверки умственной активности вашего ребёнка. Если вы введёте имя, фамилию и дату рождения вашего ребёнка, бот предоставит IQ-тесты, соответствующие возрасту вашего ребёнка.\n\n❗ Напоминаем: наш бот предназначен только для детей от 3 до 7 лет.\nПожалуйста, введите данные следующим образом:\n1️⃣ Имя и фамилия (например: Алиев Валижон)\n2️⃣ Дата рождения (например: 29.11.2020)",
-    "menu":{
-          "start_test": "Регистрация",
-      "history": "Простой тест"
+    "welcome": "Здравствуйте! Выберите язык:",
+    "ask_name": "Пожалуйста, введите ваше имя и фамилию:",
+    "ask_region": "Теперь выберите ваш регион:",
+    "ask_district": "Теперь выберите ваш район:",
+    "ask_location_type": "Где обучается ваш ребенок?",
+    "ask_bogcha_type": "Какой тип вашего детского сада?",
+    "ask_bogcha_number": "Пожалуйста, введите номер детского сада (например: 154):",
+    "confirm_question": "Всё верно?",
+    "menu": {
+      "start_test": "🧠 Начать тест",
+      "history": "📚 История"
+    },
+    "responses": {
+      "registered": "✅ Спасибо — вы успешно зарегистрированы 🎉",
+      "cancelled": "❌ Отменено. Нажмите /start, чтобы повторить."
     }
   }
 }
