@@ -1,43 +1,36 @@
-import json
+# ===================== user_said/functions/func.py =====================
 from aiogram.types import Message, ReplyKeyboardRemove
 from aiogram.fsm.context import FSMContext
 from user_said.states.statess import Form
-# from user_said.keyboards.key_language import get_languages_keyboard, registration_keyboard
 from user_said.keyboards.key_language import (
-    get_languages_keyboard,
-    registration_keyboard,
-    get_district_keyboard,
-    get_region_keyboard,
-    get_location_type_keyboard,get_location_type_keyboard, get_bogcha_type_keyboard,
-    confirm_keyboard)
-# S.Marjona
-# JSON yuklab olamiz
-with open("user_said/translations/keyboard_translation.json", "r", encoding="utf-8") as f:
-    translations = json.load(f)
-# tugmalarning nomlari
+    get_languages_keyboard, registration_keyboard, confirm_keyboard,
+    get_location_type_keyboard, get_bogcha_type_keyboard
+)
+from user_said.keyboards.key_regions import region_keyboard, district_keyboard
+from user_said.utils.i18n import t  # ==== CHATGPT QO'SHGAN ====
+
+# Tugmalar va til kodi map
 LANG_MAP = {
     "🇺🇿 Uz": "uz",
     "🇺🇸 En": "en",
     "🇷🇺 Ru": "ru"
 }
 
-# R.Mehriniso 
-# start ni ishga tushirish yani botni
+# ================= START / TIL TANLASH =================
 async def start_commond(message: Message, state: FSMContext):
-    await message.answer(text="Tilni tanlang / Выберите язык / Choose a language:", reply_markup=get_languages_keyboard())
+    await message.answer(
+        text="Tilni tanlang / Выберите язык / Choose a language:",
+        reply_markup=get_languages_keyboard()
+    )
     await state.set_state(Form.language)
 
-# Til tanlangandan keyin welcome text ni chiqarish
 async def set_language(message: Message, state: FSMContext):
-    lang_code = LANG_MAP.get(message.text, "uz")  # agar boshqa narsa yozilsa default uz
+    lang_code = LANG_MAP.get(message.text, "uz")
     await state.update_data(language=lang_code)
-
     await message.answer(
-        text=translations[lang_code]["welcome"],
+        text=t(lang_code, "welcome"),
         reply_markup=ReplyKeyboardRemove()
     )
-
-        # 🔥 Til tanlangach darhol menyuni chiqaramiz
     data = await state.get_data()
     await message.answer(
         text="Menu",
@@ -51,105 +44,131 @@ async def lang_command_answer(message: Message, state: FSMContext):
         reply_markup=get_languages_keyboard()
     )
     await state.set_state(Form.language)
-# Munisa Akbarovna  ro'yxatdan utish  bosqichma bosqich
 
-# ---------------- RO‘YXATNI BOSHLASH ----------------
+# ================= RO‘YXAT BOSHLASH =================
 async def start_registration(message: Message, state: FSMContext):
     data = await state.get_data()
     lang = data.get("language", "uz")
-    await message.answer(translations[lang]["ask_name"])
-
+    await message.answer(t(lang, "ask_name"))
     await state.set_state(Form.name)
 
-
-# ---------------- ISM QABUL QILISH ----------------
+# ================= ISM QABUL QILISH =================
 async def ask_region(message: Message, state: FSMContext):
-    await state.update_data(name=message.text)
-    await message.answer("Endi viloyatingizni tanlang:", reply_markup=get_region_keyboard())
+    data = await state.get_data()
+    lang = data.get("language","uz")  # ==== CHATGPT QO'SHGAN ====
+    await message.answer(t(lang,"ask_region"), reply_markup=region_keyboard())
     await state.set_state(Form.viloyat)
 
-
-# ---------------- VILOYAT QABUL QILISH ----------------
 async def ask_district(message: Message, state: FSMContext):
+    data = await state.get_data()
+    lang = data.get("language","uz")  # ==== CHATGPT QO'SHGAN ====
     await state.update_data(viloyat=message.text)
-    await message.answer("Endi tumaningizni tanlang:", reply_markup=get_district_keyboard())
+    await message.answer(t(lang,"ask_district"), reply_markup=district_keyboard(data.get("viloyat")))
     await state.set_state(Form.tuman)
 
-
-# ---------------- TUMAN QABUL QILISH ----------------
 async def ask_location_type(message: Message, state: FSMContext):
+    data = await state.get_data()
+    lang = data.get("language","uz")  # ==== CHATGPT QO'SHGAN ====
     await state.update_data(tuman=message.text)
-    await message.answer("Farzandingiz qayerda ta’lim oladi?", reply_markup=get_location_type_keyboard())
+    await message.answer(
+        t(lang,"ask_location_type"),
+        reply_markup=get_location_type_keyboard(lang)
+    )
     await state.set_state(Form.location_type)
 
-
-# ---------------- UY / BOG‘CHA TANLASH ----------------
+# ================= UY / BOG‘CHA =================
 async def process_location_type(message: Message, state: FSMContext):
-    location = message.text.strip().lower()
-    await state.update_data(location_type=location)
+    data = await state.get_data()
+    lang = data.get("language","uz")  # ==== CHATGPT QO'SHGAN ====
 
-    if "bog‘cha" in location or "bogcha" in location:
-        await message.answer("Bog‘changiz turi qanday?", reply_markup=get_bogcha_type_keyboard())
+    text = message.text
+
+    if text == t(lang, "location", "kindergarten"):
+        await state.update_data(location_type="kindergarten")
+        await message.answer(
+            t(lang,"ask_bogcha_type"),
+            reply_markup=get_bogcha_type_keyboard(lang)
+        )
         await state.set_state(Form.bogcha_type)
-    else:
-        # Agar "Uy" tanlasa — to‘g‘ridan-to‘g‘ri tasdiqlashga o‘tamiz
+
+    elif text == t(lang, "location", "home"):
+        await state.update_data(location_type="home")
         await confirm_registration(message, state)
 
+    else:
+        await message.answer(t(lang, "errors", "choose_button"))
 
-# ---------------- DAVLAT / XUSUSIY ----------------
+# ================= DAVLAT / XUSUSIY =================
 async def process_bogcha_type(message: Message, state: FSMContext):
-    bogcha_type = message.text.strip().lower()
-    await state.update_data(bogcha_type=bogcha_type)
+    data = await state.get_data()
+    lang = data.get("language","uz")  # ==== CHATGPT QO'SHGAN ====
 
-    if "davlat" in bogcha_type:
-        await message.answer("Iltimos, bog‘changiz raqamini kiriting (masalan: 154):")
+    text = message.text
+
+    if text == t(lang, "kindergarten", "public"):
+        await state.update_data(bogcha_type="public")
+        await message.answer(t(lang,"ask_bogcha_number"))
         await state.set_state(Form.bogcha_number)
-    elif "xususiy" in bogcha_type:
+
+    elif text == t(lang, "kindergarten", "private"):
+        await state.update_data(bogcha_type="private")
         await confirm_registration(message, state)
+
     else:
-        await message.answer("Iltimos, pastdagi tugmalardan birini tanlang.")
+        await message.answer(t(lang, "errors", "choose_button"))
 
-
-# ---------------- BOG‘CHA RAQAMI ----------------
-async def process_bogcha_number(message: Message, state: FSMContext):
+# ================= BOG‘CHA RAQAMI =================
+async def process_bogcha_number(message: Message, state: FSMContext):  # ==== CHATGPT QO'SHGAN ====
+    data = await state.get_data()
+    lang = data.get("language","uz")
     number = message.text.strip()
     await state.update_data(bogcha_number=number)
     await confirm_registration(message, state)
 
-
-# ---------------- TASDIQLASH EKRANI ----------------
+# ================= TASDIQLASH =================
 async def confirm_registration(message: Message, state: FSMContext):
     data = await state.get_data()
+    lang = data.get("language","uz")  # ==== CHATGPT QO'SHGAN ====
+
+    location_key = data.get("location_type")
+    location_label = t(lang, "location", location_key) if location_key else "—"
 
     summary = (
-        f"👤 Ism: {data.get('name')}\n"
-        f"📍 Viloyat: {data.get('viloyat')}\n"
-        f"🏠 Tuman: {data.get('tuman')}\n"
-        f"🏡 Joylashuv: {data.get('location_type')}\n"
+        f"👤 {t(lang,'ask_name')} {data.get('name')}\n"
+        f"📍 {t(lang,'ask_region')} {data.get('viloyat')}\n"
+        f"🏠 {t(lang,'ask_district')} {data.get('tuman')}\n"
+        f"🏡 {location_label}\n"
     )
 
-    # Agar bog‘cha tanlangan bo‘lsa — qo‘shimcha ma’lumotlarni qo‘shamiz
-    if "bog‘cha" in data.get("location_type", ""):
-        summary += f"🏫 Bog‘cha turi: {data.get('bogcha_type', '—')}\n"
+    if location_key == "kindergarten":
+        bogcha_key = data.get("bogcha_type")
+        bogcha_label = t(lang, "kindergarten", bogcha_key) if bogcha_key else "—"
+        summary += f"🏫 {bogcha_label}\n"
+
         if data.get("bogcha_number"):
-            summary += f"🔢 Bog‘cha raqami: {data.get('bogcha_number')}\n"
+            summary += f"🔢 {t(lang,'ask_bogcha_number')}: {data.get('bogcha_number')}\n"
 
-    summary += "\nHammasi to‘g‘rimi?"
+    summary += f"\n{t(lang,'confirm_question')}"
 
-    await message.answer(summary, reply_markup=confirm_keyboard())
+    await message.answer(summary, reply_markup=confirm_keyboard(lang))
     await state.set_state(Form.confirm)
 
-
-# ---------------- YAKUNIY TASDIQLASH ----------------
+# ================= YAKUNIY TASDIQLASH =================
 async def finish_registration(message: Message, state: FSMContext):
+    data = await state.get_data()
+    lang = data.get("language","uz")  # ==== CHATGPT QO'SHGAN ====
+
     text = (message.text or "").lower()
-    if "ha" in text or "tasdiq" in text or "✅" in text:
-        data = await state.get_data()
+
+    if "ha" in text or "yes" in text or "да" in text or "✅" in text:
         await message.answer(
-            f"✅ Rahmat, {data.get('name')}!\nSiz muvaffaqiyatli ro‘yxatdan o‘tdingiz 🎉",
+            t(lang,"responses","registered"),
             reply_markup=ReplyKeyboardRemove()
         )
         await state.clear()
     else:
-        await message.answer("❌ Bekor qilindi. Qayta /start bosing.", reply_markup=ReplyKeyboardRemove())
+        await message.answer(
+            t(lang,"responses","cancelled"),
+            reply_markup=ReplyKeyboardRemove()
+        )
         await state.clear()

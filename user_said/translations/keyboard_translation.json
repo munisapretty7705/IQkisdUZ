@@ -1,17 +1,32 @@
 {
   "uz": {
-    "welcome": "Assalomu alaykum! Tilni tanlang / Выберите язык / Choose a language:",
     "ask_name": "Iltimos, ismingizni kiriting:",
     "ask_region": "Endi viloyatingizni tanlang:",
     "ask_district": "Endi tumaningizni tanlang:",
+
     "ask_location_type": "Farzandingiz qayerda ta’lim oladi?",
     "ask_bogcha_type": "Bog‘changiz turi qanday?",
     "ask_bogcha_number": "Iltimos, bog‘cha raqamini kiriting (masalan: 154):",
     "confirm_question": "Hammasi to‘g‘rimi?",
-    "menu": {
-      "start_test": "🧠 Testni boshlash",
-      "history": "📚 Tarix"
+
+    "welcome": "Xush kelibsiz!",
+
+
+    "location": {
+      "home": "🏡 Uy",
+      "kindergarten": "🏫 Bog‘cha"
     },
+
+    "kindergarten": {
+      "public": "🏛 Davlat",
+      "private": "🏠 Xususiy"
+    },
+
+    "menu": {
+      "register": "📝 Ro'yxatdan o'tish",
+      "test": "📚 Oddiy test"
+    },
+
     "responses": {
       "registered": "✅ Rahmat, siz muvaffaqiyatli ro‘yxatdan o‘tdingiz 🎉",
       "cancelled": "❌ Bekor qilindi. Qayta /start bosing."
@@ -19,18 +34,30 @@
   },
 
   "en": {
-    "welcome": "Hello! Choose your language:",
     "ask_name": "Please enter your full name:",
     "ask_region": "Now select your region:",
     "ask_district": "Now select your district:",
+
     "ask_location_type": "Where does your child study?",
     "ask_bogcha_type": "What type is your kindergarten?",
     "ask_bogcha_number": "Please enter the kindergarten number (e.g. 154):",
     "confirm_question": "Is everything correct?",
-    "menu": {
-      "start_test": "🧠 Start Test",
-      "history": "📚 History"
+
+    "location": {
+      "home": "🏡 Home",
+      "kindergarten": "🏫 Kindergarten"
     },
+
+    "kindergarten": {
+      "public": "🏛 Public",
+      "private": "🏠 Private"
+    },
+
+    "menu": {
+      "register": "📝 Registration",
+      "test": "🧠 Easy test"
+    },
+
     "responses": {
       "registered": "✅ Thank you — you have been registered successfully 🎉",
       "cancelled": "❌ Cancelled. Press /start to try again."
@@ -38,18 +65,30 @@
   },
 
   "ru": {
-    "welcome": "Здравствуйте! Выберите язык:",
     "ask_name": "Пожалуйста, введите ваше имя и фамилию:",
     "ask_region": "Теперь выберите ваш регион:",
     "ask_district": "Теперь выберите ваш район:",
+
     "ask_location_type": "Где обучается ваш ребенок?",
     "ask_bogcha_type": "Какой тип вашего детского сада?",
     "ask_bogcha_number": "Пожалуйста, введите номер детского сада (например: 154):",
     "confirm_question": "Всё верно?",
-    "menu": {
-      "start_test": "🧠 Начать тест",
-      "history": "📚 История"
+
+    "location": {
+      "home": "🏡 Дом",
+      "kindergarten": "🏫 Детский сад"
     },
+
+    "kindergarten": {
+      "public": "🏛 Государственный",
+      "private": "🏠 Частный"
+    },
+
+    "menu": {
+      "register": "📝 Регистрация",
+      "test": "📚 Простой тест"
+    },
+
     "responses": {
       "registered": "✅ Спасибо — вы успешно зарегистрированы 🎉",
       "cancelled": "❌ Отменено. Нажмите /start, чтобы повторить."
