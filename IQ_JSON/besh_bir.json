@@ -1,0 +1,62 @@
+[
+  {
+    "image": "images/letters/find_letter_E.png",
+    "question_audio": "Qaysi harf 'E'?",
+    "options": ["F", "E", "L"],
+    "answer": 2
+  },
+  {
+    "image": "images/logic/sequence_shapes.png",
+    "question_audio": "Ketma-ketlikda qaysi shakl keyin keladi?",
+    "options": ["1", "2", "3"],
+    "answer": 3
+  },
+  {
+    "image": "images/math/addition_3_2.png",
+    "question_audio": "3 ta olma va 2 ta olma nechta bo‘ladi?",
+    "options": ["4", "5", "6"],
+    "answer": 2
+  },
+  {
+    "image": "images/words/ball.png",
+    "question_audio": "Bu rasmda nima bor?",
+    "options": ["To‘p", "Stol", "Gilam"],
+    "answer": 1
+  },
+  {
+    "image": "images/colors/select_color_yellow.png",
+    "question_audio": "Qaysi rasmda sariq rang bor?",
+    "options": ["1", "2", "3"],
+    "answer": 2
+  },
+  {
+    "image": "images/logic/odd_one_out_shapes.png",
+    "question_audio": "Qaysi shakl boshqalarga o‘xshamaydi?",
+    "options": ["1", "2", "3"],
+    "answer": 1
+  },
+  {
+    "image": "images/letters/start_letter_M.png",
+    "question_audio": "Qaysi so‘z 'M' harfi bilan boshlanadi?",
+    "options": ["Mushuk", "Olma", "Ko‘zoynak"],
+    "answer": 1
+  },
+  {
+    "image": "images/time/clock_7.png",
+    "question_audio": "Soat nechani ko‘rsatyapti?",
+    "options": ["6", "7", "8"],
+    "answer": 2
+  },
+  {
+    "image": "images/numbers/count_objects_6.png",
+    "question_audio": "Nechta rasm bor?",
+    "options": ["5", "6", "7"],
+    "answer": 2
+  },
+  {
+    "image": "images/math/subtract_5_2.png",
+    "question_audio": "5 tadan 2 tasi olib tashlansa, nechta qoladi?",
+    "options": ["2", "3", "4"],
+    "answer": 2
+  }
+]

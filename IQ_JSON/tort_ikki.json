@@ -1,0 +1,62 @@
+[
+  {
+    "image": "images/logic/similar_group.png",
+    "question_audio": "Qaysi rasm boshqalariga o‘xshamaydi?",
+    "options": ["1", "2", "3"],
+    "answer": 2
+  },
+  {
+    "image": "images/animals/animal_homes.png",
+    "question_audio": "Qaysi uy qushniki?",
+    "options": ["In", "Ini", "Buloq"],
+    "answer": 1
+  },
+  {
+    "image": "images/colors/mix_colors.png",
+    "question_audio": "Qizil bilan sariqni aralashtirsak qaysi rang chiqadi?",
+    "options": ["To‘q sariq", "Yashil", "Ko‘k"],
+    "answer": 1
+  },
+  {
+    "image": "images/numbers/count_shapes.png",
+    "question_audio": "Nechta uchburchak bor?",
+    "options": ["4", "5", "6"],
+    "answer": 2
+  },
+  {
+    "image": "images/shapes/rotate_shapes.png",
+    "question_audio": "Qaysi rasm aylantirilgan shakli?",
+    "options": ["1", "2", "3"],
+    "answer": 3
+  },
+  {
+    "image": "images/directions/arrows.png",
+    "question_audio": "Qaysi rasmda o‘ngga qarab turgan o‘q bor?",
+    "options": ["1", "2", "3"],
+    "answer": 2
+  },
+  {
+    "image": "images/logic/complete_sequence.png",
+    "question_audio": "Ketma-ketlikni to‘g‘ri tugatadigan rasm qaysi?",
+    "options": ["1", "2", "3"],
+    "answer": 1
+  },
+  {
+    "image": "images/body/left-right-hand.png",
+    "question_audio": "Qaysi qo‘l chap qo‘l?",
+    "options": ["1", "2", "3"],
+    "answer": 1
+  },
+  {
+    "image": "images/time/morning-evening.png",
+    "question_audio": "Bu rasmda qaysi vaqt bo‘lgan?",
+    "options": ["Ertalab", "Kechqurun", "Tush"],
+    "answer": 2
+  },
+  {
+    "image": "images/actions/dress_up.png",
+    "question_audio": "Bola nima qilyapti?",
+    "options": ["Ovqatlanmoqda", "Uxlmoqda", "Kiyim kiymoqda"],
+    "answer": 3
+  }
+]

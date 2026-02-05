@@ -1,0 +1,62 @@
+[
+  {
+    "image": "images/letters/letter_G.png",
+    "question_audio": "Bu qaysi harf?",
+    "options": ["C", "G", "Q"],
+    "answer": 2
+  },
+  {
+    "image": "images/words/goose.png",
+    "question_audio": "Bu qanday hayvon?",
+    "options": ["G‘oz", "To‘tiqush", "Sigir"],
+    "answer": 1
+  },
+  {
+    "image": "images/math/addition_5_4.png",
+    "question_audio": "5 ta to‘p va 4 ta to‘p nechta bo‘ladi?",
+    "options": ["8", "9", "10"],
+    "answer": 2
+  },
+  {
+    "image": "images/logic/complete_pattern.png",
+    "question_audio": "Ketma-ketlikda qaysi rasm keyingi bo‘ladi?",
+    "options": ["1", "2", "3"],
+    "answer": 3
+  },
+  {
+    "image": "images/colors/which_is_green.png",
+    "question_audio": "Qaysi rasmda yashil rang bor?",
+    "options": ["1", "2", "3"],
+    "answer": 1
+  },
+  {
+    "image": "images/logic/odd_one_out_objects.png",
+    "question_audio": "Qaysi rasm boshqalarga o‘xshamaydi?",
+    "options": ["Kitob", "Ruchka", "Olma"],
+    "answer": 3
+  },
+  {
+    "image": "images/time/clock_5.png",
+    "question_audio": "Soat nechani ko‘rsatmoqda?",
+    "options": ["5", "6", "4"],
+    "answer": 1
+  },
+  {
+    "image": "images/letters/spell_word_CAT.png",
+    "question_audio": "Bu harflardan qanday so‘z tuziladi?",
+    "options": ["DOG", "CAP", "CAT"],
+    "answer": 3
+  },
+  {
+    "image": "images/numbers/missing_number_6.png",
+    "question_audio": "Qaysi raqam ketma-ketlikda yo‘q? 4, 5, __, 7",
+    "options": ["6", "3", "8"],
+    "answer": 1
+  },
+  {
+    "image": "images/math/subtract_9_3.png",
+    "question_audio": "9 dan 3 ni ayirsak nechta qoladi?",
+    "options": ["6", "5", "7"],
+    "answer": 1
+  }
+]

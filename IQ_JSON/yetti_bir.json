@@ -1,0 +1,62 @@
+[
+  {
+    "image": "images/reading/gapni_toldir.png",
+    "question": "Gapni to‘ldiring: 'Ona ____ tayyorlamoqda.'",
+    "options": ["o‘yin", "ovqat", "kitob"],
+    "answer": 2
+  },
+  {
+    "image": "images/math/eq_7_plus_8_minus_3.png",
+    "question": "7 + 8 - 3 = ?",
+    "options": ["11", "12", "13"],
+    "answer": 2
+  },
+  {
+    "image": "images/logic/find_next_shape.png",
+    "question": "Ketma-ketlikda qaysi shakl keyin keladi?",
+    "options": ["1", "2", "3"],
+    "answer": 1
+  },
+  {
+    "image": "images/reading/sinonim_tanla.png",
+    "question": "‘Katta’ so‘zining sinonimini tanlang.",
+    "options": ["Kichik", "Ulkan", "Yengil"],
+    "answer": 2
+  },
+  {
+    "image": "images/time/clock_2_15.png",
+    "question": "Soat nechani ko‘rsatmoqda?",
+    "options": ["2:15", "2:30", "1:45"],
+    "answer": 1
+  },
+  {
+    "image": "images/colors/mix_blue_yellow.png",
+    "question": "Ko‘k va sariqni aralashtirsak qanday rang chiqadi?",
+    "options": ["Yashil", "Qizil", "Pushti"],
+    "answer": 1
+  },
+  {
+    "image": "images/logic/odd_object_school.png",
+    "question": "Qaysi buyum maktabga tegishli emas?",
+    "options": ["Ruchka", "Daftar", "Non"],
+    "answer": 3
+  },
+  {
+    "image": "images/numbers/count_objects_17.png",
+    "question": "Rasmda nechta ob'ekt bor?",
+    "options": ["16", "17", "18"],
+    "answer": 2
+  },
+  {
+    "image": "images/math/two_steps.png",
+    "question": "4 × 2 + 3 = ?",
+    "options": ["10", "11", "12"],
+    "answer": 2
+  },
+  {
+    "image": "images/words/antonym_find.png",
+    "question": "‘Issiq’ so‘zining zid (antonim) ma’nosini toping.",
+    "options": ["Sovuq", "Yorug‘", "Quruq"],
+    "answer": 1
+  }
+]

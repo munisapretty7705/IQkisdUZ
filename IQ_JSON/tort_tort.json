@@ -1,0 +1,62 @@
+[
+  {
+    "image": "images/letters/letter_D.png",
+    "question_audio": "Bu harf nima?",
+    "options": ["B", "D", "P"],
+    "answer": 2
+  },
+  {
+    "image": "images/words/dog.png",
+    "question_audio": "Bu rasmda nima bor?",
+    "options": ["Mushuk", "It", "Sigir"],
+    "answer": 2
+  },
+  {
+    "image": "images/logic/pattern_complete.png",
+    "question_audio": "Ketma-ketlikni to‘g‘ri davom ettiradigan rasm qaysi?",
+    "options": ["1", "2", "3"],
+    "answer": 1
+  },
+  {
+    "image": "images/numbers/compare_5_7.png",
+    "question_audio": "Qaysi raqam katta?",
+    "options": ["5", "7", "Barobar"],
+    "answer": 2
+  },
+  {
+    "image": "images/letters/letter_match_K.png",
+    "question_audio": "Qaysi rasm 'K' harfi bilan boshlanadi?",
+    "options": ["Kapalak", "Olma", "Qo‘zi"],
+    "answer": 1
+  },
+  {
+    "image": "images/math/add_apples.png",
+    "question_audio": "Rasmda 2 ta olma va yana 1 ta olma bor. Jami nechta?",
+    "options": ["2", "3", "4"],
+    "answer": 2
+  },
+  {
+    "image": "images/body/body_parts.png",
+    "question_audio": "Qaysi rasmda quloq ko‘rsatilgan?",
+    "options": ["1", "2", "3"],
+    "answer": 2
+  },
+  {
+    "image": "images/logic/odd_one_out_animals.png",
+    "question_audio": "Qaysi hayvon boshqalarga o‘xshamaydi?",
+    "options": ["Sigir", "O‘rdak", "Mashina"],
+    "answer": 3
+  },
+  {
+    "image": "images/letters/spell_CAT.png",
+    "question_audio": "'CAT' so‘zida nechta harf bor?",
+    "options": ["2", "3", "4"],
+    "answer": 2
+  },
+  {
+    "image": "images/time/clock_9.png",
+    "question_audio": "Soat nechani ko‘rsatyapti?",
+    "options": ["6", "9", "3"],
+    "answer": 2
+  }
+]

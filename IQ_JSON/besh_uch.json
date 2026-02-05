@@ -1,0 +1,62 @@
+[
+  {
+    "image": "images/letters/find_letter_R.png",
+    "question_audio": "Qaysi harf 'R'?",
+    "options": ["P", "R", "K"],
+    "answer": 2
+  },
+  {
+    "image": "images/math/addition_6_3.png",
+    "question_audio": "6 ta qushga 3 ta qush qo‘shilsa nechta bo‘ladi?",
+    "options": ["8", "9", "10"],
+    "answer": 2
+  },
+  {
+    "image": "images/logic/find_sequence_end.png",
+    "question_audio": "Ketma-ketlikda keyingi rasm qaysi bo‘ladi?",
+    "options": ["1", "2", "3"],
+    "answer": 1
+  },
+  {
+    "image": "images/words/book.png",
+    "question_audio": "Bu nima?",
+    "options": ["Daftar", "Kitob", "Rasm"],
+    "answer": 2
+  },
+  {
+    "image": "images/numbers/count_objects_9.png",
+    "question_audio": "Nechta rasm bor?",
+    "options": ["8", "9", "10"],
+    "answer": 2
+  },
+  {
+    "image": "images/colors/find_blue_shape.png",
+    "question_audio": "Qaysi rasmda ko‘k shakl bor?",
+    "options": ["1", "2", "3"],
+    "answer": 3
+  },
+  {
+    "image": "images/logic/odd_one_vehicle.png",
+    "question_audio": "Qaysi transport boshqalarga o‘xshamaydi?",
+    "options": ["Mashina", "Avtobus", "Olma"],
+    "answer": 3
+  },
+  {
+    "image": "images/time/clock_2.png",
+    "question_audio": "Soat nechani ko‘rsatyapti?",
+    "options": ["2", "4", "1"],
+    "answer": 1
+  },
+  {
+    "image": "images/letters/start_letter_S.png",
+    "question_audio": "Qaysi so‘z 'S' harfi bilan boshlanadi?",
+    "options": ["Suv", "Olma", "Kitob"],
+    "answer": 1
+  },
+  {
+    "image": "images/math/subtract_7_4.png",
+    "question_audio": "7 dan 4 ni ayirsak nechta qoladi?",
+    "options": ["2", "3", "4"],
+    "answer": 2
+  }
+]

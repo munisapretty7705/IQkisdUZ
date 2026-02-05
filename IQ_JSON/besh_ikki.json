@@ -1,0 +1,62 @@
+[
+  {
+    "image": "images/letters/find_letter_S.png",
+    "question_audio": "Bu rasmda qaysi harf 'S'?",
+    "options": ["S", "C", "Z"],
+    "answer": 1
+  },
+  {
+    "image": "images/numbers/greater_number.png",
+    "question_audio": "Qaysi raqam katta: 8 yoki 5?",
+    "options": ["5", "8", "Barobar"],
+    "answer": 2
+  },
+  {
+    "image": "images/logic/pattern_color_shape.png",
+    "question_audio": "Ketma-ketlikni davom ettiradigan rasm qaysi?",
+    "options": ["1", "2", "3"],
+    "answer": 3
+  },
+  {
+    "image": "images/math/addition_4_3.png",
+    "question_audio": "4 ta olma va 3 ta olma nechta bo‘ladi?",
+    "options": ["6", "7", "8"],
+    "answer": 2
+  },
+  {
+    "image": "images/words/cup.png",
+    "question_audio": "Bu nima?",
+    "options": ["Kub", "Stakan", "Muz"],
+    "answer": 2
+  },
+  {
+    "image": "images/logic/odd_object.png",
+    "question_audio": "Qaysi rasm boshqalardan farq qiladi?",
+    "options": ["1", "2", "3"],
+    "answer": 1
+  },
+  {
+    "image": "images/colors/find_red_object.png",
+    "question_audio": "Qaysi rasmda qizil rang bor?",
+    "options": ["1", "2", "3"],
+    "answer": 2
+  },
+  {
+    "image": "images/time/clock_11.png",
+    "question_audio": "Soat nechani ko‘rsatmoqda?",
+    "options": ["11", "12", "10"],
+    "answer": 1
+  },
+  {
+    "image": "images/body/identify_nose.png",
+    "question_audio": "Qaysi rasmda burun ko‘rsatilgan?",
+    "options": ["1", "2", "3"],
+    "answer": 3
+  },
+  {
+    "image": "images/math/subtract_6_2.png",
+    "question_audio": "6 dan 2 ni ayirsak nechta qoladi?",
+    "options": ["3", "4", "5"],
+    "answer": 2
+  }
+]

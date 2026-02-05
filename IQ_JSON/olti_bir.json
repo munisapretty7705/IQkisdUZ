@@ -1,0 +1,62 @@
+[
+  {
+    "image": "images/letters/spell_word_SUN.png",
+    "question": "Qaysi so‘z 'S', 'U', 'N' harflaridan tuzilgan?",
+    "options": ["SUN", "RUN", "SON"],
+    "answer": 1
+  },
+  {
+    "image": "images/math/add_7_5.png",
+    "question": "7 + 5 = ?",
+    "options": ["11", "12", "13"],
+    "answer": 2
+  },
+  {
+    "image": "images/logic/which_is_next.png",
+    "question": "Ketma-ketlikda qaysi rasm keyin keladi?",
+    "options": ["1", "2", "3"],
+    "answer": 3
+  },
+  {
+    "image": "images/reading/sentence_cat.png",
+    "question": "Rasmga mos gapni tanlang: 'Bu mushuk ...'",
+    "options": ["sakrayapti", "uchyapti", "yig‘layapti"],
+    "answer": 1
+  },
+  {
+    "image": "images/colors/find_orange.png",
+    "question": "Qaysi rasmda to'q sariq rang bor?",
+    "options": ["1", "2", "3"],
+    "answer": 2
+  },
+  {
+    "image": "images/time/clock_3_30.png",
+    "question": "Soat nechani ko‘rsatyapti?",
+    "options": ["3:00", "3:30", "4:00"],
+    "answer": 2
+  },
+  {
+    "image": "images/logic/odd_one_out_fruits.png",
+    "question": "Qaysi meva boshqalarga o‘xshamaydi?",
+    "options": ["Olma", "Banan", "Soat"],
+    "answer": 3
+  },
+  {
+    "image": "images/numbers/missing_number_10.png",
+    "question": "6, 7, __, 9. Qaysi raqam yo‘q?",
+    "options": ["8", "5", "10"],
+    "answer": 1
+  },
+  {
+    "image": "images/letters/find_vowel_E.png",
+    "question": "Quyidagilardan qaysi biri unli harf?",
+    "options": ["E", "T", "R"],
+    "answer": 1
+  },
+  {
+    "image": "images/math/subtract_10_4.png",
+    "question": "10 dan 4 ni ayirsak nechta qoladi?",
+    "options": ["5", "6", "4"],
+    "answer": 2
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "image": "images/letters/letter_A.png",
+    "question_audio": "Bu qaysi harf?",
+    "options": ["A", "O", "B"],
+    "answer": 1
+  },
+  {
+    "image": "images/letters/apple.png",
+    "question_audio": "Qaysi rasm 'A' harfi bilan boshlanadi?",
+    "options": ["Olma", "Banana", "Muzqaymoq"],
+    "answer": 1
+  },
+  {
+    "image": "images/letters/letter_B.png",
+    "question_audio": "Qaysi so‘z 'B' harfi bilan boshlanadi?",
+    "options": ["Bola", "Olma", "Kitob"],
+    "answer": 1
+  },
+  {
+    "image": "images/numbers/number_match.png",
+    "question_audio": "Qaysi rasmda 5 ta yulduz bor?",
+    "options": ["1", "2", "3"],
+    "answer": 2
+  },
+  {
+    "image": "images/shapes/shape_letters.png",
+    "question_audio": "Qaysi shakl 'K' harfi bilan boshlanadi?",
+    "options": ["Kvadrat", "Doira", "Uchburchak"],
+    "answer": 1
+  },
+  {
+    "image": "images/logic/odd_one_out_letters.png",
+    "question_audio": "Qaysi harf boshqalardan farq qiladi?",
+    "options": ["A", "B", "3"],
+    "answer": 3
+  },
+  {
+    "image": "images/words/match_word_image.png",
+    "question_audio": "Qaysi rasm 'mushuk' so‘ziga mos?",
+    "options": ["1", "2", "3"],
+    "answer": 2
+  },
+  {
+    "image": "images/actions/write.png",
+    "question_audio": "Bola nima qilyapti?",
+    "options": ["Yozmoqda", "Yemoqda", "Uxlamoqda"],
+    "answer": 1
+  },
+  {
+    "image": "images/letters/m_letter_mix.png",
+    "question_audio": "Qaysi harf 'M' harfiga o‘xshaydi?",
+    "options": ["N", "W", "M"],
+    "answer": 3
+  },
+  {
+    "image": "images/colors/spell_color.png",
+    "question_audio": "'Ko‘k' so‘zi qaysi rangni anglatadi?",
+    "options": ["1", "2", "3"],
+    "answer": 1
+  }
+]

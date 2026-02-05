@@ -1,0 +1,62 @@
+[
+  {
+    "image": "images/letters/first_letter_ball.png",
+    "question": "‘Ball’ so‘zining birinchi harfi nima?",
+    "options": ["B", "D", "P"],
+    "answer": 1
+  },
+  {
+    "image": "images/math/addition_9_6.png",
+    "question": "9 + 6 = ?",
+    "options": ["14", "15", "16"],
+    "answer": 2
+  },
+  {
+    "image": "images/logic/sequence_star_circle.png",
+    "question": "Ketma-ketlikka to‘g‘ri keladigan rasmni tanlang.",
+    "options": ["1", "2", "3"],
+    "answer": 3
+  },
+  {
+    "image": "images/reading/the_girl_reads.png",
+    "question": "Rasmga mos gapni toping: 'Qiz kitob o‘qiyapti.'",
+    "options": ["Qiz o‘ynayapti", "Qiz o‘qiyapti", "Qiz uxlayapti"],
+    "answer": 2
+  },
+  {
+    "image": "images/time/clock_1_30.png",
+    "question": "Soat nechani ko‘rsatmoqda?",
+    "options": ["1:30", "2:00", "12:30"],
+    "answer": 1
+  },
+  {
+    "image": "images/colors/find_brown_object.png",
+    "question": "Qaysi rasmda jigarrang rang bor?",
+    "options": ["1", "2", "3"],
+    "answer": 2
+  },
+  {
+    "image": "images/logic/odd_shape.png",
+    "question": "Qaysi shakl boshqalardan farq qiladi?",
+    "options": ["Doira", "Uchburchak", "Rangli qalam"],
+    "answer": 3
+  },
+  {
+    "image": "images/numbers/count_objects_14.png",
+    "question": "Nechta ob'ekt bor?",
+    "options": ["13", "14", "15"],
+    "answer": 2
+  },
+  {
+    "image": "images/math/subtract_15_6.png",
+    "question": "15 dan 6 ni ayirsak nechta qoladi?",
+    "options": ["9", "8", "7"],
+    "answer": 1
+  },
+  {
+    "image": "images/words/find_rhyming_word.png",
+    "question": "‘Sun’ so‘ziga qaysi so‘z qofiyadosh?",
+    "options": ["Run", "Sit", "Ball"],
+    "answer": 1
+  }
+]

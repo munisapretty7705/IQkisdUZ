@@ -1,0 +1,62 @@
+[
+  {
+    "image": "images/reading/sentence_dog.png",
+    "question": "Gapni to‘ldiring: 'It ____ yugurdi.'",
+    "options": ["tez", "sekin", "sokin"],
+    "answer": 1
+  },
+  {
+    "image": "images/math/equation_4_plus_3_times_2.png",
+    "question": "4 + 3 × 2 = ?",
+    "options": ["10", "12", "14"],
+    "answer": 1
+  },
+  {
+    "image": "images/logic/different_shape.png",
+    "question": "Qaysi shakl boshqalardan farq qiladi?",
+    "options": ["1", "2", "3"],
+    "answer": 2
+  },
+  {
+    "image": "images/words/sinonim_joy.png",
+    "question": "‘Joy’ so‘zining sinonimini tanlang.",
+    "options": ["Manzil", "Yo‘l", "Ism"],
+    "answer": 1
+  },
+  {
+    "image": "images/time/clock_3_15.png",
+    "question": "Soat nechani ko‘rsatmoqda?",
+    "options": ["3:15", "2:45", "4:00"],
+    "answer": 1
+  },
+  {
+    "image": "images/colors/find_pink.png",
+    "question": "Qaysi rasmda pushti rang bor?",
+    "options": ["1", "2", "3"],
+    "answer": 3
+  },
+  {
+    "image": "images/logic/pattern_repeat.png",
+    "question": "Ketma-ketlikda keyingi rasmni toping.",
+    "options": ["1", "2", "3"],
+    "answer": 2
+  },
+  {
+    "image": "images/numbers/count_objects_21.png",
+    "question": "Rasmda nechta ob'ekt bor?",
+    "options": ["20", "21", "22"],
+    "answer": 2
+  },
+  {
+    "image": "images/math/parenthesis_3_plus_2_times_4.png",
+    "question": "(3 + 2) × 4 = ?",
+    "options": ["20", "18", "24"],
+    "answer": 1
+  },
+  {
+    "image": "images/words/antonym_soft.png",
+    "question": "‘Yumshoq’ so‘zining antonimini tanlang.",
+    "options": ["Qattiq", "Silliq", "Issiq"],
+    "answer": 1
+  }
+]

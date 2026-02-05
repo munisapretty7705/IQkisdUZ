@@ -1,0 +1,62 @@
+[
+  {
+    "image": "images/letters/make_word_DOG.png",
+    "question": "Quyidagi harflardan qaysi so‘z tuziladi: D, O, G?",
+    "options": ["GOD", "DOG", "DIG"],
+    "answer": 2
+  },
+  {
+    "image": "images/math/addition_6_8.png",
+    "question": "6 + 8 = ?",
+    "options": ["13", "14", "15"],
+    "answer": 2
+  },
+  {
+    "image": "images/logic/pattern_triangle_circle.png",
+    "question": "Ketma-ketlikka mos shaklni tanlang.",
+    "options": ["1", "2", "3"],
+    "answer": 1
+  },
+  {
+    "image": "images/reading/the_boy_runs.png",
+    "question": "Quyidagi gapga mos rasmni top: 'Bola yuguryapti.'",
+    "options": ["1", "2", "3"],
+    "answer": 2
+  },
+  {
+    "image": "images/time/clock_10_00.png",
+    "question": "Soat nechani ko‘rsatmoqda?",
+    "options": ["9:00", "10:00", "11:00"],
+    "answer": 2
+  },
+  {
+    "image": "images/colors/identify_color_purple.png",
+    "question": "Qaysi rasmda binafsha rang bor?",
+    "options": ["1", "2", "3"],
+    "answer": 3
+  },
+  {
+    "image": "images/logic/odd_one_out_animals.png",
+    "question": "Qaysi hayvon boshqalarga o‘xshamaydi?",
+    "options": ["It", "Mushuk", "Olma"],
+    "answer": 3
+  },
+  {
+    "image": "images/numbers/count_11_objects.png",
+    "question": "Rasmda nechta ob'ekt bor?",
+    "options": ["10", "11", "12"],
+    "answer": 2
+  },
+  {
+    "image": "images/math/subtract_12_7.png",
+    "question": "12 dan 7 ni ayirsak nechta qoladi?",
+    "options": ["5", "4", "6"],
+    "answer": 1
+  },
+  {
+    "image": "images/letters/find_word_with_letter_A.png",
+    "question": "Qaysi so‘zda 'A' harfi bor?",
+    "options": ["Cat", "Dog", "Pen"],
+    "answer": 1
+  }
+]

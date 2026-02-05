@@ -1,0 +1,62 @@
+[
+  {
+    "image": "images/reading/fill_in_blank_cat.png",
+    "question": "Gapni to‘ldiring: 'Mushuk ____ ustida yotibdi.'",
+    "options": ["kursi", "kitob", "deraza"],
+    "answer": 1
+  },
+  {
+    "image": "images/math/eq_5_plus_3_times_2.png",
+    "question": "5 + 3 × 2 = ?",
+    "options": ["11", "16", "13"],
+    "answer": 1
+  },
+  {
+    "image": "images/logic/odd_out_transport.png",
+    "question": "Qaysi biri boshqalarga o‘xshamaydi?",
+    "options": ["Velosiped", "Avtobus", "Olma"],
+    "answer": 3
+  },
+  {
+    "image": "images/words/sinonim_oqil.png",
+    "question": "‘Aqlli’ so‘zining sinonimini tanlang.",
+    "options": ["Tez", "Zukko", "Qattiq"],
+    "answer": 2
+  },
+  {
+    "image": "images/time/clock_7_30.png",
+    "question": "Soat nechani ko‘rsatmoqda?",
+    "options": ["7:30", "8:00", "6:45"],
+    "answer": 1
+  },
+  {
+    "image": "images/colors/find_orange.png",
+    "question": "Qaysi rasmda to‘q sariq (apelsin) rang bor?",
+    "options": ["1", "2", "3"],
+    "answer": 2
+  },
+  {
+    "image": "images/logic/next_in_sequence_complex.png",
+    "question": "Ketma-ketlikda qaysi rasm keyin keladi?",
+    "options": ["1", "2", "3"],
+    "answer": 3
+  },
+  {
+    "image": "images/numbers/count_objects_23.png",
+    "question": "Rasmda nechta ob’ekt bor?",
+    "options": ["22", "23", "24"],
+    "answer": 2
+  },
+  {
+    "image": "images/math/parenthesis_calc.png",
+    "question": "(6 + 4) × 2 = ?",
+    "options": ["18", "20", "22"],
+    "answer": 2
+  },
+  {
+    "image": "images/words/antonym_dark.png",
+    "question": "‘Qorong‘i’ so‘zining zid ma’nosini toping.",
+    "options": ["Yorug‘", "Sovuq", "Tinch"],
+    "answer": 1
+  }
+]

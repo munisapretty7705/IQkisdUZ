@@ -1,0 +1,62 @@
+[
+  {
+    "image": "images/logic/puzzle1.png",
+    "question_audio": "Qaysi rasm boshqa?",
+    "options": ["1", "2", "3"],
+    "answer": 3
+  },
+  {
+    "image": "images/animals/bird.png",
+    "question_audio": "Bu hayvon nima qiladi?",
+    "options": ["Suzadi", "Uchadi", "Yuguradi"],
+    "answer": 2
+  },
+  {
+    "image": "images/emotions/happy.png",
+    "question_audio": "Bu bola qanday kayfiyatda?",
+    "options": ["Xafa", "Baxtli", "Qo‘rqdi"],
+    "answer": 2
+  },
+  {
+    "image": "images/numbers/3.png",
+    "question_audio": "Bu nechchi raqam?",
+    "options": ["2", "3", "4"],
+    "answer": 2
+  },
+  {
+    "image": "images/directions/left-right.png",
+    "question_audio": "Bu bola qaysi tomonga qarayapti?",
+    "options": ["Chapga", "O‘ngga", "Oldinga"],
+    "answer": 1
+  },
+  {
+    "image": "images/shapes/square.png",
+    "question_audio": "Bu qanday shakl?",
+    "options": ["Doira", "Uchburchak", "Kvadrat"],
+    "answer": 3
+  },
+  {
+    "image": "images/colors/yellow.png",
+    "question_audio": "Qaysi rang sariq?",
+    "options": ["1", "2", "3"],
+    "answer": 1
+  },
+  {
+    "image": "images/actions/jump.png",
+    "question_audio": "Bu bola nima qilyapti?",
+    "options": ["Sakrayapti", "Uxlayapti", "Yemoqda"],
+    "answer": 1
+  },
+  {
+    "image": "images/food/fruit-vegetable.png",
+    "question_audio": "Qaysi biri sabzavot?",
+    "options": ["Olma", "Sabzi", "Gilos"],
+    "answer": 2
+  },
+  {
+    "image": "images/transport/plane.png",
+    "question_audio": "Bu transport vositasi nima?",
+    "options": ["Avtobus", "Poyezd", "Samolyot"],
+    "answer": 3
+  }
+]

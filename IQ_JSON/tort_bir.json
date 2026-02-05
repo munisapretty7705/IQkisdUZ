@@ -1,0 +1,62 @@
+[
+  {
+    "image": "images/numbers/count_objects.png",
+    "question_audio": "Rasmda nechta hayvon bor?",
+    "options": ["4", "5", "6"],
+    "answer": 2
+  },
+  {
+    "image": "images/logic/shadow_match.png",
+    "question_audio": "Qaysi soyabon bu hayvonga tegishli?",
+    "options": ["1", "2", "3"],
+    "answer": 1
+  },
+  {
+    "image": "images/colors/color_match.png",
+    "question_audio": "Qaysi meva yashil rangda?",
+    "options": ["Banan", "Olma", "Gilos"],
+    "answer": 2
+  },
+  {
+    "image": "images/positions/under-table.png",
+    "question_audio": "Bola stol ostidami yoki ustida?",
+    "options": ["Ostida", "Ustida", "Yonida"],
+    "answer": 1
+  },
+  {
+    "image": "images/shapes/complete_shape.png",
+    "question_audio": "Qaysi shakl to‘liq bo‘ladi?",
+    "options": ["1", "2", "3"],
+    "answer": 2
+  },
+  {
+    "image": "images/logic/sequence.png",
+    "question_audio": "Ketma-ketlikda keyin qaysi rasm bo‘ladi?",
+    "options": ["1", "2", "3"],
+    "answer": 3
+  },
+  {
+    "image": "images/transport/compare.png",
+    "question_audio": "Qaysi transport tezroq yuradi?",
+    "options": ["Velosiped", "Samolyot", "Avtobus"],
+    "answer": 2
+  },
+  {
+    "image": "images/emotions/angry.png",
+    "question_audio": "Bu bola qanday his qilmoqda?",
+    "options": ["Baxtli", "Qo‘rqdi", "Jahli chiqdi"],
+    "answer": 3
+  },
+  {
+    "image": "images/body/parts_mix.png",
+    "question_audio": "Qaysi rasmda og‘iz ko‘rsatilgan?",
+    "options": ["1", "2", "3"],
+    "answer": 2
+  },
+  {
+    "image": "images/time/clock.png",
+    "question_audio": "Soat nechani ko‘rsatmoqda?",
+    "options": ["3", "6", "9"],
+    "answer": 1
+  }
+]

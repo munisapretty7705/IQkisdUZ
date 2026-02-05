@@ -1,0 +1,62 @@
+[
+  {
+    "image": "IQ_Image/3.1ranglar.jpg",
+    "question_audio": "Qaysi rang qizil?",
+    "options": ["Ko'k", "Qizil", "Yashil"],
+    "answer": 2
+  },
+  {
+    "image": "IQ_Image/3.1kuchuk.jpg",
+    "question_audio": "Bu hayvon qanday ovoz chiqaradi?",
+    "options": ["Miyov", "Vov", "Moo"],
+    "answer": 2
+  },
+  {
+    "image": "IQ_Image/3.1olma.jpg",
+    "question_audio": "Bu qanday meva?",
+    "options": ["Banan", "Olma", "Uzum"],
+    "answer": 2
+  },
+  {
+    "image": "IQ_Image/3.1koptok.jpg",
+    "question_audio": "Qaysi koptok katta?",
+    "options": ["Chapdagisi", "O‘ngdagisi", "Ikkalasi teng"],
+    "answer": 1
+  },
+  {
+    "image": "IQ_Image/barmoqlar.jpg",
+    "question_audio": "Nechta barmoq bor?",
+    "options": ["3", "5", "6"],
+    "answer": 2
+  },
+  {
+    "image": "IQ_Image/3.1stul.jpg",
+    "question_audio": "Stul qayerda bo‘ladi?",
+    "options": ["Ovqat", "Jihoz", "Hayvon"],
+    "answer": 2
+  },
+  {
+    "image": "IQ_Image/3.1qush.jpg",
+    "question_audio": "Qaysi uchadi?",
+    "options": ["Mushuk", "Qush", "It"],
+    "answer": 2
+  },
+  {
+    "image": "IQ_Image/3.1ovqatlanish.jpg",
+    "question_audio": "Ona senga nima qiladi?",
+    "options": ["Uxlaydi", "Ovqat beradi", "Ishlaydi"],
+    "answer": 2
+  },
+  {
+    "image": "IQ_Image/3.1bola_oynayapdi.jpg",
+    "question_audio": "Bu bola nima qilyapti?",
+    "options": ["Tozalayapti", "O‘ynayapti", "Yig‘layapti"],
+    "answer": 2
+  },
+  {
+    "image": "IQ_Image/3.1shaklar.jpg",
+    "question_audio": "Ko'k rangdagi qanday shakl?",
+    "options": ["Kvadrat", "Doira", "Uchburchak"],
+    "answer": 2
+  }
+]

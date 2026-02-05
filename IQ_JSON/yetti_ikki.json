@@ -1,0 +1,62 @@
+[
+  {
+    "image": "images/reading/sentence_fill_flower.png",
+    "question": "Gapni to‘ldiring: 'Lola ____ gullarga suv quydi.'",
+    "options": ["qizil", "sariq", "yashil"],
+    "answer": 1
+  },
+  {
+    "image": "images/math/eq_6_times_2_minus_3.png",
+    "question": "6 × 2 − 3 = ?",
+    "options": ["9", "10", "11"],
+    "answer": 1
+  },
+  {
+    "image": "images/logic/which_doesnt_fit.png",
+    "question": "Qaysi rasm boshqalariga mos emas?",
+    "options": ["Qalam", "Daftar", "Olma"],
+    "answer": 3
+  },
+  {
+    "image": "images/words/sinonim_find_fast.png",
+    "question": "‘Tez’ so‘zining sinonimini tanlang.",
+    "options": ["Sekin", "Yaxshi", "Shiddatli"],
+    "answer": 3
+  },
+  {
+    "image": "images/time/clock_9_45.png",
+    "question": "Soat nechani ko‘rsatmoqda?",
+    "options": ["9:30", "9:45", "10:00"],
+    "answer": 2
+  },
+  {
+    "image": "images/colors/find_lightblue.png",
+    "question": "Qaysi rasmda och ko‘k rang bor?",
+    "options": ["1", "2", "3"],
+    "answer": 2
+  },
+  {
+    "image": "images/logic/complete_pattern.png",
+    "question": "Ketma-ketlikda qaysi rasm keyingi bo‘ladi?",
+    "options": ["1", "2", "3"],
+    "answer": 1
+  },
+  {
+    "image": "images/numbers/count_objects_19.png",
+    "question": "Rasmda nechta ob'ekt bor?",
+    "options": ["18", "19", "20"],
+    "answer": 2
+  },
+  {
+    "image": "images/math/mixed_add_mul.png",
+    "question": "5 + 2 × 3 = ?",
+    "options": ["21", "11", "17"],
+    "answer": 2
+  },
+  {
+    "image": "images/words/opposite_long.png",
+    "question": "‘Uzun’ so‘zining zid (antonim) ma’nosini toping.",
+    "options": ["Kalta", "Tor", "Katta"],
+    "answer": 1
+  }
+]

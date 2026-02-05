@@ -1,0 +1,62 @@
+[
+  {
+    "image": "images/reading/simple_sentence1.png",
+    "question": "Gapni to‘ldiring: 'Qush ____ uchyapti.'",
+    "options": ["osmon", "yerda", "daraxt"],
+    "answer": 1
+  },
+  {
+    "image": "images/math/complex_add_subtract.png",
+    "question": "3 + 5 - 2 = ?",
+    "options": ["6", "7", "8"],
+    "answer": 1
+  },
+  {
+    "image": "images/logic/pattern_complex.png",
+    "question": "Shakllar ketma-ketligida qaysi rasm keyin keladi?",
+    "options": ["1", "2", "3"],
+    "answer": 2
+  },
+  {
+    "image": "images/letters/find_word_from_picture.png",
+    "question": "Rasmda quyidagilardan qaysi so‘z tasvirlangan?",
+    "options": ["Kitob", "Stol", "Qalam"],
+    "answer": 3
+  },
+  {
+    "image": "images/time/clock_6_45.png",
+    "question": "Soat nechani ko‘rsatmoqda?",
+    "options": ["6:30", "6:45", "7:00"],
+    "answer": 2
+  },
+  {
+    "image": "images/colors/mix_colors.png",
+    "question": "Qizil bilan ko‘k rangni aralashtirsak qanday rang hosil bo‘ladi?",
+    "options": ["Yashil", "Pushti", "Binafsha"],
+    "answer": 3
+  },
+  {
+    "image": "images/logic/odd_out_furniture.png",
+    "question": "Qaysi biri boshqalarga o‘xshamaydi?",
+    "options": ["Stul", "Stol", "Olma"],
+    "answer": 3
+  },
+  {
+    "image": "images/numbers/sequence_skip2.png",
+    "question": "Ketma-ketlikni to‘ldiring: 2, 4, __, 8",
+    "options": ["5", "6", "7"],
+    "answer": 2
+  },
+  {
+    "image": "images/reading/comprehension1.png",
+    "question": "Matnga ko‘ra, bola bog‘da nima qilmoqda?",
+    "options": ["O‘ynayapti", "Yig‘layapti", "Uxlmoqda"],
+    "answer": 1
+  },
+  {
+    "image": "images/math/double_addition.png",
+    "question": "4 + 3 + 2 = ?",
+    "options": ["8", "9", "10"],
+    "answer": 2
+  }
+]

@@ -1,22 +1,55 @@
 {
   "uz": {
-    "ask_name": "Iltimos, ismingizni kiriting:",
+    "ask_name": "Farzandigiz ism-familiyasini kiriting. Masalan:Aliyev Vali",
+    "ans_name": "Ism-familiya qabul qilindi ✅",
+    "ask_birth": "Endi farzandingizning tug‘ilgan kunini DD.MM.YYYY formatida kiriting (masalan: 29.11.2020):",
     "ask_region": "Endi viloyatingizni tanlang:",
     "ask_district": "Endi tumaningizni tanlang:",
 
+    "name_try1": "Ism-familiyada raqam qatnashishi mumkin emas!",
+    "true_name":"Faqat farzandingizning ism-familiyasini kiriting",
+    "ans_age": "Farzandingiz {name}, {years} yosh {months} oylik.",
+    "ans_region":"Viloyatingiz qabul qilindi ✅",
+    "ans_district":"Tumaningiz qabul qilindi ✅",
+    "ans_kin":"Ta'lim olish joyi qabul qilindi ✅",
+    "ans_home":"Ta'lim olish joyi qabul qilindi ✅",
+    "loc_pub":"Bog'cha turi qabul qilindi ✅",
+    "loc_pri":"Bog'cha turi qabul qilindi ✅",
+    "ariza_qabuli":"Ariza qabul qilinsinmi?",
+    "ariza_qabuli1":"Ha yoki Yo'q deb javob bering",
+    "b_num":"Bog‘cha raqami qabul qilindi ✅",
+    "new_ariza":"Yangi ariza",
+    "ariza_q":"Arizangiz qabul qilindi ✅ \\n Testni boshlash uchun *Test* tugmasini bosing.",
+    "ariza_cancel":"❌ Ariza bekor qilindi",
+ 
+    
     "ask_location_type": "Farzandingiz qayerda ta’lim oladi?",
     "ask_bogcha_type": "Bog‘changiz turi qanday?",
     "ask_bogcha_number": "Iltimos, bog‘cha raqamini kiriting (masalan: 154):",
     "confirm_question": "Hammasi to‘g‘rimi?",
 
-    "welcome": "Xush kelibsiz!",
+    "welcome": "Salom, botga xush kelibsiz! 😊\n\nBot sizga qanday yordam bera oladi?\nBot sizning farzandingizning aqliy faoliyatini tekshirish uchun mo‘ljallangan bo‘lib, unga farzandingizning ism, familiya va tug‘ilgan kunini kiritsangiz, bot sizga farzandingizning yoshiga mos bo‘lgan IQ testlarini taqdim etadi.\n\n❗ Eslatib o‘tamiz: Botimiz faqat 3 yoshdan 7 yoshgacha bo‘lgan bolalar uchun mo‘ljallangan.\n\nIltimos agar ro'yxatdan o'tmoqchi bo'lsangiz \nRo'yxatdan o'tish tugmasini bosing!",
+    
+    "name_try": "Ism kiritilmagan",
+    "age_try": "❗ Botimiz faqat 3 yoshdan 7 yoshgacha bo‘lgan bolalar uchun mo‘ljallangan.\n Iltimos, /start buyrug‘i orqali qaytadan urinib ko‘ring.",
+    "date_try": "⚠️ Tug‘ilgan kunni noto‘g‘ri formatda kiritdingiz.\n Iltimos, quyidagi formatda yozing:\n\n *DD.MM.YYYY* (masalan: *29.11.2020*)",
+    
+    "applicant": "Ariza beruvchi",
+    "age": "Yoshi",
+    "year": "yil",
+    "month": "oy",
+    "region": "Viloyat",
+    "district": "Tuman",
+    "homea": "Ta'lim olish joyi",
+    "kindergarten_type": "Bog'cha turi",
+    "kindergarten_number": "Bog'cha raqami",
 
 
     "location": {
       "home": "🏡 Uy",
       "kindergarten": "🏫 Bog‘cha"
     },
-
+    
     "kindergarten": {
       "public": "🏛 Davlat",
       "private": "🏠 Xususiy"
@@ -28,20 +61,54 @@
     },
 
     "responses": {
-      "registered": "✅ Rahmat, siz muvaffaqiyatli ro‘yxatdan o‘tdingiz 🎉",
-      "cancelled": "❌ Bekor qilindi. Qayta /start bosing."
+      "registered": "✅ Ha",
+      "cancelled": "❌ Yo'q"
     }
   },
 
   "en": {
-    "ask_name": "Please enter your full name:",
+    "ask_name": "👶 Enter your child's full name.Example:Aliyev Vali",
+    "ans_name": "Name and surname have been accepted.",
     "ask_region": "Now select your region:",
     "ask_district": "Now select your district:",
+
+
+    "name_try1": "Numbers are not allowed in the name and surname!",
+    "true_name": "Please enter only your child's full name",
+    "ans_age": "Your child {name} is {years} years and {months} months old.",
+    "ans_region": "Your region has been accepted ✅",
+    "ans_district": "Your district has been accepted ✅",
+    "ans_kin": "Place of education has been accepted ✅",
+    "ans_home": "Place of education has been accepted ✅",
+    "loc_pub": "Kindergarten type has been accepted ✅",
+    "loc_pri": "Kindergarten type has been accepted ✅",
+    "ariza_qabuli": "Do you want to submit the application?",
+    "ariza_qabuli1": "Please answer Yes or No",
+    "b_num": "Kindergarten number has been accepted ✅",
+    "new_ariza": "New application",
+    "ariza_q": "Your application has been accepted ✅ \\n Click Test to start.",
+    "ariza_cancel":"❌ Application has been cancelled",
 
     "ask_location_type": "Where does your child study?",
     "ask_bogcha_type": "What type is your kindergarten?",
     "ask_bogcha_number": "Please enter the kindergarten number (e.g. 154):",
     "confirm_question": "Is everything correct?",
+    "welcome": "Hello, welcome to the bot! 😊\n\nHow can this bot help you?\nThe bot is designed to check your child's mental activity. If you enter your child's first name, last name, and date of birth, the bot will provide you with IQ tests suitable for your child's age.\n\n❗ Reminder: Our bot is intended only for children between 3 and 7 years old.\n\nIf you want to register, please click the 'Registration' button!",
+
+    "name_try": "Name not entered",
+    "age_try": "❗ This bot is only for kids 3–7 years old.\n Please use /start to try again.",
+    "date_try": "⚠️ Wrong date format!\n Please use: *DD.MM.YYYY* \n Example: *29.11.2020*",
+    "ask_birth": "Enter your child's birthday (DD.MM.YYYY)./n  Example: 29.11.2020",
+    
+    "applicant": "Applicant",
+    "age": "Age",
+    "year": "year",
+    "month": "month",
+    "region": "Region",
+    "district": "District",
+    "homea": "Place of study",
+  
+
 
     "location": {
       "home": "🏡 Home",
@@ -59,20 +126,52 @@
     },
 
     "responses": {
-      "registered": "✅ Thank you — you have been registered successfully 🎉",
-      "cancelled": "❌ Cancelled. Press /start to try again."
+      "registered": "✅ Yes",
+      "cancelled": "❌ No"
     }
   },
 
   "ru": {
-    "ask_name": "Пожалуйста, введите ваше имя и фамилию:",
+    "ask_name": "👶 Введите имя и фамилию ребёнка.Пример:Aliyev Vali",
+    "ans_name": "Имя и фамилия приняты.",
     "ask_region": "Теперь выберите ваш регион:",
     "ask_district": "Теперь выберите ваш район:",
+
+    "name_try1": "В имени и фамилии нельзя использовать цифры!",
+    "true_name": "Введите только имя и фамилию вашего ребенка",
+    "ans_age": "Вашему ребёнку {name} {years} лет и {months} месяцев.",
+    "ans_region": "Ваша область принята ✅",
+    "ans_district": "Ваш район принят ✅",
+    "ans_kin": "Место обучения принято ✅",
+    "ans_home": "Место обучения принято ✅",
+    "loc_pub": "Тип детского сада принят ✅",
+    "loc_pri": "Тип детского сада принят ✅",
+    "ariza_qabuli": "Подать заявление?",
+    "ariza_qabuli1": "Пожалуйста, ответьте Да или Нет",
+    "b_num": "Номер детского сада принят ✅",
+    "new_ariza": "Новое заявление",
+    "ariza_q": "Ваше заявление принято ✅ \\n Нажмите Тест, чтобы начать.",
+    "ariza_cancel":"❌ Заявка отменена",
 
     "ask_location_type": "Где обучается ваш ребенок?",
     "ask_bogcha_type": "Какой тип вашего детского сада?",
     "ask_bogcha_number": "Пожалуйста, введите номер детского сада (например: 154):",
     "confirm_question": "Всё верно?",
+    "welcome": "Здравствуйте! Добро пожаловать в бот! 😊\n\nКак этот бот может вам помочь?\nБот предназначен для проверки интеллектуальных способностей вашего ребенка. Если вы введете имя, фамилию и дату рождения ребенка, бот предоставит вам IQ-тесты, соответствующие возрасту вашего ребенка.\n\n❗ Напоминаем: наш бот предназначен только для детей от 3 до 7 лет.\n\nПожалуйста, если вы хотите зарегистрироваться, нажмите кнопку «Регистрация»!",
+    
+    "name_try": "Имя не введено!",
+    "age_try": "❗ Бот только для детей 3–7 лет.\n Пожалуйста, начните заново командой /start.",
+    "date_try": "⚠️ Неправильный формат даты!\n Пожалуйста, введите: *ДД.ММ.ГГГГ* \n Пример: *29.11.2020*",
+    "ask_birth": "Введите дату рождения ребёнка (ДД.ММ.ГГГГ).\n  Пример: 29.11.2020", 
+    
+    "applicant": "Заявитель",
+    "age": "Возраст",
+    "year": "Год",
+    "month": "месяц",
+    "region": "Область",
+    "district": "Район",
+    "homea": "Место обучения",
+   
 
     "location": {
       "home": "🏡 Дом",
@@ -90,8 +189,8 @@
     },
 
     "responses": {
-      "registered": "✅ Спасибо — вы успешно зарегистрированы 🎉",
-      "cancelled": "❌ Отменено. Нажмите /start, чтобы повторить."
+      "registered": "✅ Да",
+      "cancelled": "❌ Нет"
     }
   }
 }
